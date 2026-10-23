@@ -20,7 +20,7 @@ class Persona:
 
     @property
     def source_path(self) -> str:
-        return os.path.join(HERE, "sources", self.source_file)
+        return os.path.join(HERE, self.source_file)
 
 
 PERSONAS = {
